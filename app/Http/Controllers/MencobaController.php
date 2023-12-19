@@ -20,6 +20,6 @@ class MencobaController extends Controller
         return view('fpx');
     }
     public function beranda(){
-        return view('layouts/home');
+        return view('layouts/main');
     }
 }
